@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "515426928356",
+    "firebase_url": "https://farmerassistant-cd0d5.firebaseio.com",
+    "project_id": "farmerassistant-cd0d5",
+    "storage_bucket": "farmerassistant-cd0d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515426928356:android:51322e4cc1b1dc43",
+        "android_client_info": {
+          "package_name": "com.example.bhart.farmerassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515426928356-k0rc0ognubuiqrg9pmdeju4csbv1sh80.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bhart.farmerassistant",
+            "certificate_hash": "5b1d9780f2d91eb10bfddd98ff8cc00c26b3ab88"
+          }
+        },
+        {
+          "client_id": "515426928356-dsud3m9e005u5hjr3uhm8kohl072idq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCRGQ-sajdjvoIuo8wZJmytH-5ttZZvTM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515426928356-dsud3m9e005u5hjr3uhm8kohl072idq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
