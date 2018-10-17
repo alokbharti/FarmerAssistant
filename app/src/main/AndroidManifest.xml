@@ -25,7 +25,8 @@
         <activity android:name=".CommodityActivity" />
         <activity android:name=".Sell" />
         <activity android:name=".Buy_Seeds" />
-        <activity android:name=".BuyerDetail"></activity>
+        <activity android:name=".BuyerDetail" />
+        <activity android:name=".FarmerSoldProduct"></activity>
     </application>
 
 </manifest>

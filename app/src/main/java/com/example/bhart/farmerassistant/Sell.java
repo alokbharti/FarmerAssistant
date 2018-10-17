@@ -64,7 +64,7 @@ public class Sell extends AppCompatActivity {
                 user = firebaseAuth.getCurrentUser();
 
                 if (user!=null){
-                    Toast.makeText(Sell.this,"Welcome !",Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(Sell.this,"Welcome !",Toast.LENGTH_SHORT).show();
                 }
                 else{
                     startActivityForResult(
@@ -122,7 +122,9 @@ public class Sell extends AppCompatActivity {
             return true;
         }
         else if (id==R.id.sold_products){
-
+            Intent intent = new Intent(Sell.this,FarmerSoldProduct.class);
+            intent.putExtra("phone",user.getPhoneNumber());
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);

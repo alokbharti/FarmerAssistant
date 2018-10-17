@@ -2,6 +2,7 @@ package com.example.bhart.farmerassistant;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
@@ -85,8 +86,10 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Intent smsIntent = new Intent(Intent.ACTION_SENDTO,
+                        Uri.parse("sms:7869511134"));
+                smsIntent.putExtra("sms_body", "Hello, write something");
+                startActivity(smsIntent);
             }
         });
 

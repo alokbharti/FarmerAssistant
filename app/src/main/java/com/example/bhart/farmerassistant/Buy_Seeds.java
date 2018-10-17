@@ -53,7 +53,9 @@ public class Buy_Seeds extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 for (DataSnapshot dataSnapshot1:dataSnapshot.getChildren()){
                     Product_detail productDetail = dataSnapshot1.getValue(Product_detail.class);
-                    product_list.add(productDetail);
+                    if (!productDetail.isSold()) {
+                        product_list.add(productDetail);
+                    }
 
                 }
             }
